@@ -1,29 +1,30 @@
-Tietorakenteiden harjoitustyö
+Tietorakenteiden harjoitusty√∂
 
-Tekoäly ristinolla peliin
 
-Määrittelydokumentti
+Teko√§ly ristinolla peliin
 
-1. Mitä algoritmeja ja tietorakenteita toteutat työssäsi
+M√§√§rittelydokumentti
 
-Käytän minmax-algoritmia alpha-beta-karsinnalla.  Algoritmi tarvitsee puu tietorkenteen.
+1. Mit√§ algoritmeja ja tietorakenteita toteutat ty√§ss√§si
 
-2. Mitä ongelmaa ratkaiset ja miksi valitsit kyseiset algoritmit/tietorakenteet
+K√§yt√§n minmax-algoritmia alpha-beta-karsinnalla.  Algoritmi tarvitsee puu tietorkenteen.
 
-Toteutan tekoälyn 3x3 ristinollapeliin. Minmax-algoritmin avulla tekoäly (tietokone) valitsee
+2. Mit√§ ongelmaa ratkaiset ja miksi valitsit kyseiset algoritmit/tietorakenteet
+
+Toteutan teko√§lyn 3x3 ristinollapeliin. Minmax-algoritmin avulla teko√§ly (tietokone) valitsee
 parhaimman mahdollisen siirron pelipuusta. Alpha-beta karsinnalla saadaan karsittua turhia
 siirtoja vaikuttamatta pelin lopputulokseen.
 
-3. Mitä syötteitä ohjelma saa ja miten näitä käytetään
-Syötteenä ohjelma tarvitsee siirron koordinaatit ja koko pelilaudan tilan (aikaisemmat siirrot).
-Tekoäly laskee seuraavan siirron minmax-algoritmilla, joka käyttää syötteenä pelilaudan tilaa.
+3. Mit√§ sy√∂tteit√§ ohjelma saa ja miten niit√§ k√§ytetet√§√§n
+Sy√∂tteen√§ ohjelma tarvitsee siirron koordinaatit ja koko pelilaudan tilan (aikaisemmat siirrot).
+Teko√§ly laskee seuraavan siirron minmax-algoritmilla, joka k√§ytt√§√§ sy√∂tteen√§ pelilaudan tilaa.
 
 4. Tavoitteena olevat aika- ja tilavaativuudet (m.m. O-analyysi)
-Minmax algoritmin aikavaativuus on luokkaa  O(n^d), missä n on mahdollisten siirtojen lukumäärä ja
-d on pelipuun syvyys.  Yritän optimida alpha-beta-karsinnalla ohjelman suoritusnopeutta, mutta
-algoritmin O-luokitusta ei voi parantaa. Tilavaativuus on myös luokkaa O(n^d).
+Minmax algoritmin aikavaativuus on luokkaa  O(n^d), miss√§ n on mahdollisten siirtojen lukum√§√§r√§ ja
+d on pelipuun syvyys.  Yrit√§n optimoida alpha-beta-karsinnalla ohjelman suoritusnopeutta, mutta
+algoritmin O-luokitusta ei voi parantaa. Minmax-algoritmin tilavaativuus on my√∂s luokkaa O(n^d).
 
 
-5. Lähteet
+5. L√§hteet
 wikipedia
 
