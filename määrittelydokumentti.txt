@@ -5,9 +5,9 @@ Tekoäly ristinolla peliin
 
 Määrittelydokumentti
 
-1. Mitä algoritmeja ja tietorakenteita toteutat tyässäsi
+1. Mitä algoritmeja ja tietorakenteita toteutat työssäsi
 
-Käytän minmax-algoritmia alpha-beta-karsinnalla.  Algoritmi tarvitsee puu tietorkenteen.
+Käytän minmax-algoritmia alpha-beta-karsinnalla.  Algoritmi tarvitsee puu tietorakenteen.
 
 2. Mitä ongelmaa ratkaiset ja miksi valitsit kyseiset algoritmit/tietorakenteet
 
@@ -20,11 +20,10 @@ Syötteenä ohjelma tarvitsee siirron koordinaatit ja koko pelilaudan tilan (aik
 Tekoäly laskee seuraavan siirron minmax-algoritmilla, joka käyttää syötteenä pelilaudan tilaa.
 
 4. Tavoitteena olevat aika- ja tilavaativuudet (m.m. O-analyysi)
-Minmax algoritmin aikavaativuus on luokkaa  O(n^d), missä n on mahdollisten siirtojen lukumäärä ja
-d on pelipuun syvyys.  Yritän optimoida alpha-beta-karsinnalla ohjelman suoritusnopeutta, mutta
+Minmax-algoritmin aikavaativuus on luokkaa  O(n^d), missä n on mahdollisten siirtojen lukumäärä ja
+d on pelipuun (siirtojen) syvyys.  Yritän optimoida alpha-beta-karsinnalla ohjelman suoritusnopeutta, mutta
 algoritmin O-luokitusta ei voi parantaa. Minmax-algoritmin tilavaativuus on myös luokkaa O(n^d).
 
 
 5. Lähteet
 wikipedia
-
