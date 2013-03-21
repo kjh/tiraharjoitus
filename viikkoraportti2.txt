@@ -1,0 +1,24 @@
+Tietorakenteiden harjoitustyö Ristinolla tekoäly
+Viikkoraportti 2
+
+Mitä opin tällä viikolla
+Tutustuin minmax-algoritmin ja alpha-beta-karsinnan toimintaan paremmin lukemalla tekoälyyn liittyviä kirjoja ja 
+verkosta löytyviä artikkeleita.  
+
+Mikä jäi epäselväksi
+Miten löytää hyvä pisteytysfunktion pelitilanteille, joissa voitajaa ei ole vielä löytynyt ?
+
+
+Miten ohjelma on edistynyt
+Olen tehnyt melkein toimivan version 3x3 ristinolla pelista,  jossa tietokone käyttää minmax-algoritmia.
+Pelipuun lehtisolmujen (voitto/tasapeli) pisteytys on 0 tasapelille, -1 nollalle ja 1 ristille.
+
+Mitä teen seuraavaksi
+Lisään alpha-beta-karsinnan ja yritän kehittää pisteytysfunktion pelitilanteille joissa voitajaa ei
+ole vielä löytynyt.
+
+Kasvatan pelilaudan ja voittosuoran kokoa.
+
+
+
+
