@@ -1,0 +1,7 @@
+Viikkoraportti 3-4
+
+Game.java toteuttaa 3x3 ristinollan min-max-algoritmilla.
+
+Toteutus ei toimi viel‰ ja testaus on j‰‰nyt kokonaan.
+
+Yrit‰n korjata puutteet ja palauttaa puuttuvan dokumentaation ensi tilassa.
