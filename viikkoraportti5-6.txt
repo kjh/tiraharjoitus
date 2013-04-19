@@ -1,0 +1,14 @@
+Tietorakenteiden harjoitustyö Ristinolla tekoäly
+Viikkoraportti 5-6
+
+Miten ohjelma on edistynyt
+Olen tehnyt toimivan version 3x3 ristinolla pelista,  jossa tietokone käyttää minmax-algoritmia ja
+alpha-beta -karsintaa.
+
+Mitä teen seuraavaksi
+Kasvatan pelilaudan ja voittosuoran kokoa. Yritän kehittää pisteytysfunktion pelitilanteille joissa voitajaa ei
+ole vielä löytynyt.
+
+Puutuuvan dokumentaation ja jUnit testauksen.
+
+
